@@ -1,0 +1,22 @@
+{
+  "name": "mqtt-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app",
+    "broker": "node src/broker/broker",
+    "subs": "node src/subs/subs",
+    "pub": "node src/pub/pub"
+  },
+  "keywords": [
+    "mqtt"
+  ],
+  "author": "Rudolf Arthur Frans Gutlich",
+  "license": "ISC",
+  "dependencies": {
+    "jsonschema": "^1.2.6",
+    "mosca": "^2.8.3",
+    "mqtt": "^4.2.6"
+  }
+}
